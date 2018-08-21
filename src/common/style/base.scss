@@ -1,0 +1,11 @@
+@import './variable.scss';    //颜色和字体定义规范
+
+html,
+body {
+  line-height: 1;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none; //css 控制页面文字不会被选中
+  -webkit-tap-highlight-color: transparent; //解决ios的点击链接链接会变红的兼容性
+  background: $color-background;
+  color: #fff;
+}
